@@ -324,6 +324,15 @@ footer{
         }
     }
 
+    .menu-slide{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+
     .map{
         margin: 0 2rem;
     }
@@ -407,8 +416,64 @@ footer{
         font-size: 3rem;
         color: white;
         position: absolute;
-        top: 1rem;
-        right: 1rem;
+        top: 2rem;
+        right: 2rem;
     }
 
+}
+
+@media screen and (max-width:400px) {
+    html{
+        font-size: 10px;
+    }
+    .header{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(204, 202, 202, 0.5);
+        z-index: 1;
+    }
+    .logo{
+        text-align: center;
+        width: 30%;
+        border: 1px solid rgb(255, 255, 255, 0.5);
+        border-radius: 50%;
+        background-color: white;
+        margin: 1rem 0;
+        padding: 1rem 0;
+        img{
+            width: 50%;
+            text-align: center;
+        }
+    }
+    h1{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        top: 20rem;
+        div{
+            font-size: 4rem;
+            font-family: 'Comfortaa', cursive;
+            line-height: 1.5;
+            color: white;
+            font-weight: 900;
+        }
+        .h1-1{
+            font-size: 3rem;
+            color: rgb(255, 235, 235);
+        }
+        .h1-2{
+            color: red;
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            font-weight: 900;
+        }
+    }
+    .menu-slide{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
 }
