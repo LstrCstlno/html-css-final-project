@@ -416,8 +416,8 @@ footer{
         font-size: 3rem;
         color: white;
         position: absolute;
-        top: 2rem;
-        right: 2rem;
+        top: 4rem;
+        right: 3rem;
     }
 
 }
@@ -438,7 +438,7 @@ footer{
         border: 1px solid rgb(255, 255, 255, 0.5);
         border-radius: 50%;
         background-color: white;
-        margin: 1.5rem 0;
+        margin: 2rem 0;
         padding: 1rem 0;
         img{
             width: 50%;
@@ -476,4 +476,31 @@ footer{
             width: 100%;
         }
     }
+    .hero{
+        position: relative;
+        // top: 16vh;
+        padding-top: 13vh;
+    }
+
+    .footer{
+        padding: 1rem 0;
+        small{
+            width: 100%;
+            font-size: 0.7rem;
+            font-weight: 300;
+            font-family: 'Comfortaa', cursive;
+            color: black;
+            padding-bottom: 1.5rem;
+        }
+        .socials{
+            width: 100%;
+            font-size: 1.5rem;
+            a{
+                padding-left: 1rem;
+                color: black;
+                transition: 0.3s;
+            }
+        }
+    }
+    
 }

@@ -396,8 +396,8 @@ footer {
     font-size: 3rem;
     color: white;
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 4rem;
+    right: 3rem;
   }
 }
 @media screen and (max-width: 400px) {
@@ -416,7 +416,7 @@ footer {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     background-color: white;
-    margin: 1.5rem 0;
+    margin: 2rem 0;
     padding: 1rem 0;
   }
   .logo img {
@@ -453,6 +453,30 @@ footer {
   }
   .menu-slide img {
     width: 100%;
+  }
+  .hero {
+    position: relative;
+    padding-top: 13vh;
+  }
+  .footer {
+    padding: 1rem 0;
+  }
+  .footer small {
+    width: 100%;
+    font-size: 0.7rem;
+    font-weight: 300;
+    font-family: "Comfortaa", cursive;
+    color: black;
+    padding-bottom: 1.5rem;
+  }
+  .footer .socials {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .footer .socials a {
+    padding-left: 1rem;
+    color: black;
+    transition: 0.3s;
   }
 }
 html {
