@@ -1,0 +1,414 @@
+
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(204, 202, 202, 0.5);
+    z-index: 1;
+}
+
+.logo{
+    text-align: center;
+    width: 15%;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    img{
+        width: 50%;
+        text-align: center;
+    }
+}
+
+.head-nav li{
+    padding-right: 1.5rem;
+    a{
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+    & a:hover{
+        color: red;
+    }
+}
+
+.hero{
+    position: relative;
+    // top: 16vh;
+    padding-top: 16vh;
+}
+
+// .carousel{
+// }
+
+.slide{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    height: 80vh;
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        filter:brightness(0.5)
+    }
+}
+
+h1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 20rem;
+    div{
+        font-size: 3rem;
+        font-family: 'Comfortaa', cursive;
+        line-height: 1.5;
+        color: white;
+        font-weight: 900;
+    }
+    .h1-1{
+        font-size: 2.5rem;
+        color: rgb(255, 235, 235);
+    }
+    .h1-2{
+        color: red;
+        font-family: 'Dancing Script', cursive;
+        font-size: 4rem;
+        font-weight: 900;
+    }
+}
+
+.menu{
+    background-image: linear-gradient( rgb(0,0,0,0.8) , rgb(0, 0, 0, 0.8)) , url(/html-css-final-project/media/menu-background.avif);
+    padding-top: 80vh;
+    h2{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        color: red;
+        font-size: 4rem;
+        padding: 2rem 0;
+        border-top: 2px double gold;
+        border-bottom: 2px double gold;
+    }
+}
+
+.menu-slide{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    img{
+        width: 100%;
+    }
+}
+
+
+.menu-btn-container{
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.menu-parent{
+    padding: 6rem 0;
+}
+
+.menu-btn{
+    button{
+        border: none;
+        margin-right: 3rem;
+        background-color: transparent;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Comfortaa', cursive;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    & button:hover{
+        color: red;
+    }
+}
+
+.active{
+    display: flex;
+}
+
+.menu-container{
+    padding-bottom: 3rem;
+}
+
+.fav-head{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: red;
+    font-size: 4rem;
+    padding: 2rem 0;
+    border-top: 2px double gold;
+    border-bottom: 2px double gold;
+}
+
+.fav-img{
+    width: 90%;
+    height: 90%;
+    img{
+        width: 100%;
+        border-radius: 5px;
+        border-left: 20px solid white;
+        border-right: 20px solid white;
+    }
+}
+
+.grid-container{
+    padding: 8rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items:center;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+.favourites, .about{
+    background-image: linear-gradient( rgb(0,0,0,0.8) , rgb(0, 0, 0, 0.8)) , url(/html-css-final-project/media/menu-background.avif);
+}
+
+
+.about-container{
+    padding: 8rem 0;
+}
+
+.chef-img{
+    width: 40%;
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.about-content{
+    width: 55%;
+    h3{
+        color: white;
+        font-size: 2.5rem;
+        padding-bottom: 4rem;
+    }
+    p{
+        color: white;
+        font-size: 1.2rem;   
+        line-height: 1.5; 
+        font-family: 'Kanit', sans-serif;
+        padding-bottom: 3rem;
+        font-weight: 100;
+    }
+}
+
+.contact{
+    background-image: linear-gradient( rgb(0,0,0,0.8) , rgb(0, 0, 0, 0.8)) , url(/html-css-final-project/media/menu-background.avif);
+    padding-bottom: 8rem;
+    h2{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 900;
+        color: red;
+        font-size: 4rem;
+        padding: 2rem 0;
+        border-top: 2px double gold;
+        border-bottom: 2px double gold;
+    }
+}
+
+.loc-img{
+    padding: 6rem 0;
+    img{
+        width: 243px;
+        height: 243px;
+        border-radius: 50%;
+    }
+}
+
+.loc-text{
+    padding-top: 3rem;
+    color: white;
+    h3{
+        font-size: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+    h4{
+        font-size: 2rem;
+        color: red;
+        padding-bottom: 1.5rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+.zomato{
+    width: 3rem;
+    height: 3rem;
+}
+
+.swiggy{
+    width: 5rem;
+    height: 3rem;
+}
+
+.loc-text-parent{
+    justify-content: center;
+    padding-top: 6rem;
+    .dine{
+        padding-right: 4rem;
+    }
+    .delivery{
+        padding-left: 4rem;
+    }
+}
+
+footer{
+    background-color: rgb(172, 38, 38);
+}
+
+.footer{
+    padding: 1rem 0;
+    small{
+        font-size: 0.7rem;
+        font-weight: 300;
+        font-family: 'Comfortaa', cursive;
+        color: black;
+    }
+    .socials{
+        font-size: 1rem;
+        a{
+            padding-left: 1rem;
+            color: black;
+            transition: 0.3s;
+        }
+    }
+}
+
+.socials a:hover{
+    color: red;
+}
+
+.hamburger{
+    display: none;
+}
+
+.overlay{
+    display: none;
+}
+
+@media screen and (max-width:748px) {
+    html{
+        font-size: 10px;
+    }
+    .head-nav-container{
+        display: none;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 2rem;
+    }
+
+    .fav-img{
+        width: 60%;
+    }
+
+    .chef-img{
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+
+    .about-content{
+        width: 100%;
+        p{
+            font-size: 1.5rem;
+        }
+    }
+
+    .map{
+        margin: 0 2rem;
+    }
+
+    .loc-text{
+        width: 100%;
+    }
+
+    .loc-text-parent{
+        justify-content: center;
+        padding-top: 6rem;
+        .dine{
+            padding-right: 0rem;
+            padding-bottom: 2rem;
+        }
+        .delivery{
+            padding-left: 0rem;
+        }
+    }
+
+    .header{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(204, 202, 202, 0.5);
+        z-index: 1;
+    }
+    
+    .logo{
+        text-align: center;
+        width: 30%;
+        border: 1px solid rgb(255, 255, 255, 0.5);
+        border-radius: 50%;
+        background-color: white;
+        margin: 1rem 0;
+        margin-left: 0.5rem;
+        padding: 0.5rem 0;
+        img{
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    .hamburger{
+        display: flex;
+        font-size: 3rem;
+        margin-right: 0.5rem;
+        cursor: pointer;
+    }
+
+    .overlay{
+        display: block;
+        position: fixed;
+        background-color: rgb(0, 0, 0, 0.8);
+        z-index: 4;
+        bottom: 0px;
+        width: 0;
+        height: 100vh;
+        overflow-x: hidden;
+        transition: 0.3s;
+    }
+
+    .overlay-content {
+        position: relative;
+        ul{
+            padding-top: 25%;
+            li{
+                color: white;
+                text-align: center;
+                width: 100%;
+                font-size: 3rem;
+                padding-bottom: 3rem;
+                font-family: 'Comfortaa', cursive;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .close{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+}

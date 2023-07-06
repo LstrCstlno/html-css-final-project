@@ -1,0 +1,483 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(204, 202, 202, 0.5);
+  z-index: 1;
+}
+
+.logo {
+  text-align: center;
+  width: 15%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+}
+.logo img {
+  width: 50%;
+  text-align: center;
+}
+
+.head-nav li {
+  padding-right: 1.5rem;
+}
+.head-nav li a {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.head-nav li a:hover {
+  color: red;
+}
+
+.hero {
+  position: relative;
+  padding-top: 16vh;
+}
+
+.slide {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  text-align: center;
+  height: 80vh;
+}
+.slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  filter: brightness(0.5);
+}
+
+h1 {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 20rem;
+}
+h1 div {
+  font-size: 3rem;
+  font-family: "Comfortaa", cursive;
+  line-height: 1.5;
+  color: white;
+  font-weight: 900;
+}
+h1 .h1-1 {
+  font-size: 2.5rem;
+  color: rgb(255, 235, 235);
+}
+h1 .h1-2 {
+  color: red;
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/html-css-final-project/media/menu-background.avif);
+  padding-top: 80vh;
+}
+.menu h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  color: red;
+  font-size: 4rem;
+  padding: 2rem 0;
+  border-top: 2px double gold;
+  border-bottom: 2px double gold;
+}
+
+.menu-slide {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+.menu-slide img {
+  width: 100%;
+}
+
+.menu-btn-container {
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.menu-parent {
+  padding: 6rem 0;
+}
+
+.menu-btn button {
+  border: none;
+  margin-right: 3rem;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  font-family: "Comfortaa", cursive;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.menu-btn button:hover {
+  color: red;
+}
+
+.active {
+  display: flex;
+}
+
+.menu-container {
+  padding-bottom: 3rem;
+}
+
+.fav-head {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  color: red;
+  font-size: 4rem;
+  padding: 2rem 0;
+  border-top: 2px double gold;
+  border-bottom: 2px double gold;
+}
+
+.fav-img {
+  width: 90%;
+  height: 90%;
+}
+.fav-img img {
+  width: 100%;
+  border-radius: 5px;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+}
+
+.grid-container {
+  padding: 8rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  row-gap: 3rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.favourites, .about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/html-css-final-project/media/menu-background.avif);
+}
+
+.about-container {
+  padding: 8rem 0;
+}
+
+.chef-img {
+  width: 40%;
+}
+.chef-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-content {
+  width: 55%;
+}
+.about-content h3 {
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 4rem;
+}
+.about-content p {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: "Kanit", sans-serif;
+  padding-bottom: 3rem;
+  font-weight: 100;
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/html-css-final-project/media/menu-background.avif);
+  padding-bottom: 8rem;
+}
+.contact h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  color: red;
+  font-size: 4rem;
+  padding: 2rem 0;
+  border-top: 2px double gold;
+  border-bottom: 2px double gold;
+}
+
+.loc-img {
+  padding: 6rem 0;
+}
+.loc-img img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+}
+
+.loc-text {
+  padding-top: 3rem;
+  color: white;
+}
+.loc-text h3 {
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.loc-text h4 {
+  font-size: 2rem;
+  color: red;
+  padding-bottom: 1.5rem;
+}
+.loc-text p {
+  font-size: 1.5rem;
+}
+
+.zomato {
+  width: 3rem;
+  height: 3rem;
+}
+
+.swiggy {
+  width: 5rem;
+  height: 3rem;
+}
+
+.loc-text-parent {
+  justify-content: center;
+  padding-top: 6rem;
+}
+.loc-text-parent .dine {
+  padding-right: 4rem;
+}
+.loc-text-parent .delivery {
+  padding-left: 4rem;
+}
+
+footer {
+  background-color: rgb(172, 38, 38);
+}
+
+.footer {
+  padding: 1rem 0;
+}
+.footer small {
+  font-size: 0.7rem;
+  font-weight: 300;
+  font-family: "Comfortaa", cursive;
+  color: black;
+}
+.footer .socials {
+  font-size: 1rem;
+}
+.footer .socials a {
+  padding-left: 1rem;
+  color: black;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: red;
+}
+
+.hamburger {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+@media screen and (max-width: 748px) {
+  html {
+    font-size: 10px;
+  }
+  .head-nav-container {
+    display: none;
+  }
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 2rem;
+  }
+  .fav-img {
+    width: 60%;
+  }
+  .chef-img {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 1.5rem;
+  }
+  .map {
+    margin: 0 2rem;
+  }
+  .loc-text {
+    width: 100%;
+  }
+  .loc-text-parent {
+    justify-content: center;
+    padding-top: 6rem;
+  }
+  .loc-text-parent .dine {
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+  .loc-text-parent .delivery {
+    padding-left: 0rem;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(204, 202, 202, 0.5);
+    z-index: 1;
+  }
+  .logo {
+    text-align: center;
+    width: 30%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    background-color: white;
+    margin: 1rem 0;
+    margin-left: 0.5rem;
+    padding: 0.5rem 0;
+  }
+  .logo img {
+    width: 50%;
+    text-align: center;
+  }
+  .hamburger {
+    display: flex;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  .overlay {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 4;
+    bottom: 0px;
+    width: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  .overlay-content {
+    position: relative;
+  }
+  .overlay-content ul {
+    padding-top: 25%;
+  }
+  .overlay-content ul li {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    font-family: "Comfortaa", cursive;
+  }
+  .overlay-content ul li a {
+    color: white;
+  }
+  .close {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-spacebtw {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.font0 {
+  font-size: 0rem;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}/*# sourceMappingURL=styles.css.map */
