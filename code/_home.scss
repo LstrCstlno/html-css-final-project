@@ -397,7 +397,7 @@ footer{
     .overlay-content {
         position: relative;
         ul{
-            padding-top: 25%;
+            padding-top: 50%;
             li{
                 color: white;
                 text-align: center;
@@ -416,7 +416,7 @@ footer{
         font-size: 3rem;
         color: white;
         position: absolute;
-        top: 4rem;
+        top: 5rem;
         right: 3rem;
     }
 
@@ -502,5 +502,27 @@ footer{
             }
         }
     }
-    
+    h1{
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        top: 30rem;
+        div{
+            font-size: 3rem;
+            font-family: 'Comfortaa', cursive;
+            line-height: 1.5;
+            color: white;
+            font-weight: 900;
+        }
+        .h1-1{
+            font-size: 2.5rem;
+            color: rgb(255, 235, 235);
+        }
+        .h1-2{
+            color: red;
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            font-weight: 900;
+        }
+    }
 }
